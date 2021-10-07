@@ -1,3 +1,10 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d00eb61-4c35-4577-aed5-9f231c27ada3/deploy-status)](https://letrasdecanciones-react.netlify.app)
+
+# INFO APIs
+The Audio DB [The Audio DB](https://www.theaudiodb.com/api_guide.php)
+
+Lyrics OVH [Lyrics OVH](https://lyricsovh.docs.apiary.io/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
