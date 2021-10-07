@@ -1,4 +1,5 @@
 import React,{ useState } from 'react';
+import PropTypes from 'prop-types';
 
 export const Formulario = ({ setBusquedaLetra }) => {
 
@@ -85,4 +86,8 @@ export const Formulario = ({ setBusquedaLetra }) => {
             </div>
         </div>
     )
+}
+
+Formulario.propTypes = {
+    setBusquedaLetra: PropTypes.func.isRequired
 }

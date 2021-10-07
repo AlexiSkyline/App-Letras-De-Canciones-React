@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 export const Info = ({ info }) => {
 
@@ -31,4 +32,8 @@ export const Info = ({ info }) => {
             </div>
         </div>
     )
+}
+
+Info.propTypes = {
+    info: PropTypes.object.isRequired
 }

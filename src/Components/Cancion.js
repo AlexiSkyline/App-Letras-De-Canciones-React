@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 export const Cancion = ({ letra }) => {
 
@@ -12,3 +13,7 @@ export const Cancion = ({ letra }) => {
     );
 
 };
+
+Cancion.propTypes = {
+    letra: PropTypes.string.isRequired
+}
